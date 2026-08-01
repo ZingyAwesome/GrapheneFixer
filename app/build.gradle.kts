@@ -1,18 +1,17 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
 }
 
 android {
     namespace = "com.enova.graphenefixer"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.enova.graphenefixer"
         minSdk = 26
-        targetSdk = 36
-        versionCode = 100201
-        versionName = "1.2.1"
+        targetSdk = 37
+        versionCode = 100300
+        versionName = "1.3.0"
     }
 
     signingConfigs {
@@ -36,11 +35,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = "1.8"
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
     packaging {
         resources.excludes.add("**/kotlin/**")

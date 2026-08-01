@@ -1,6 +1,5 @@
 [versions]
-android-application = "8.13.2"
-kotlin-android = "2.1.20"
+android-application = "9.3.0"
 xposed-api = "82"
 xposed-api-sources = "82:sources"
 
@@ -10,4 +9,3 @@ xposed-api-sources = { group = "de.robv.android.xposed", name = "api", version.r
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "android-application" }
-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin-android" }
