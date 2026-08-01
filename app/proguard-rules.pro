@@ -1,3 +1,3 @@
--keep class com.enova.graphenefixer.MainHook
+-keep class com.enova.graphenefixer.MainHook { *; }
 -repackageclasses ""
 -allowaccessmodification
